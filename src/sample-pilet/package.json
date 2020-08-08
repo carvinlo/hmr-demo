@@ -1,0 +1,26 @@
+{
+  "name": "sample-pilet",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "keywords": [
+    "pilet"
+  ],
+  "dependencies": {
+    "@private/app-shell": "*"
+  },
+  "peerDependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "piral": {
+    "comment": "Keep this section to use the Piral CLI.",
+    "name": "@private/app-shell"
+  }
+}

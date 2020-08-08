@@ -1,0 +1,13 @@
+{
+  "name": "piral",
+  "private": true,
+  "workspaces": [
+    "src/*"
+  ],
+  "scripts": {
+    "start": "cd ./src/sample-pilet && pilet debug src/index.js"
+  },
+  "devDependencies": {
+    "lerna": "^3.10.7"
+  }
+}

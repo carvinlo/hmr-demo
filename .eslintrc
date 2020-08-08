@@ -1,0 +1,46 @@
+// https://eslint.vuejs.org/
+{
+  "extends": ["react-app", "plugin:jsx-a11y/recommended", "eslint-config-prettier"],
+  "plugins": ["jsx-a11y"],
+  "rules": {
+    "no-console": "off",
+
+    "jsx-a11y/anchor-is-valid": 0, // a 标签允许空属性
+    "no-unused-expressions": 0, // 允许 import("xx")
+
+    // 注释
+    // "valid-jsdoc": 1, // 临时关闭
+    // "require-jsdoc": 1, // 临时关闭
+    "no-warning-comments": 1,
+    // "capitalized-comments": 1, // 注释首字母大写
+    "line-comment-position": 0,
+    // "lines-around-comment": 1, // 与 .prettierrc "requirePragma": false 冲突
+    "multiline-comment-style": 0, // 多单行注释合并多行注释
+    "no-inline-comments": 0, // 禁止代码中间注释
+    "spaced-comment": 1,
+
+    // 最大行数
+    "max-lines": ["error", 300],
+    // 最大行长
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "tabWidth": 2,
+        "comments": 120,
+        "ignorePattern": "",
+        "ignoreComments": true,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true
+      }
+    ],
+
+    // 圈复杂度函数
+    // "warn" 5
+    // "error" 9
+    "complexity": ["error", 50]
+  }
+}

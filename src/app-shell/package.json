@@ -1,0 +1,40 @@
+{
+  "name": "@private/app-shell",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "piral"
+  ],
+  "dependencies": {
+  },
+  "scripts": {
+  },
+  "app": "./src/index.html",
+  "pilets": {
+    "files": [],
+    "externals": [
+    ],
+    "scripts": {},
+    "validators": {},
+    "devDependencies": {
+    },
+    "preScaffold": "",
+    "postScaffold": "",
+    "preUpgrade": "",
+    "postUpgrade": ""
+  },
+  "devDependencies": {
+    "piral-cli": "*",
+    "piral-core": "*",
+    "piral-cli-webpack": "*",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router": "latest",
+    "@types/react-router-dom": "latest",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-router": ">=5.0.0",
+    "react-router-dom": ">=5.0.0",
+    "typescript": "latest"
+  }
+}

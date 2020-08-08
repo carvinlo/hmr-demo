@@ -1,0 +1,36 @@
+# Exclude compiled files
+dist
+src/private-plugins/*/lib
+src/converters/*/lib
+src/framework/*/lib
+src/initializers/*/lib
+src/packages/*/lib
+src/pages/*/lib
+src/plugins/*/lib
+src/samples/*/lib
+src/tooling/*/lib
+src/utilities/*/lib
+__generated__
+
+# OS files
+.DS_STORE
+
+# npm files
+node_modules
+# yarn.lock
+*.log
+
+# Editor files
+.idea
+# .vscode
+*.sublime-project
+*.sublime-workspace
+
+coverage
+.cache
+.nyc_output
+
+# Generated Typings
+docs/types/*.json
+
+.npm-packages-offline-cache
